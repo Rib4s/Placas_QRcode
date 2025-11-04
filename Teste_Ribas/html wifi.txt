@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Wi-Fi Gratuito</title>
+  <link rel="stylesheet" href="front.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Wi-Fi</h1>
+    
+    <div class="qrcode">
+  <img src="qrcodewifi.png" alt="QR Code Wi-Fi" width="220">
+</div>
+
+    <p>
+        <strong>Rede:</strong> <span id="wifiName">EAF4_Fibra</span>
+        <br>
+        <strong>Senha:</strong> <span id="wifiPassword">Iguicell88</span>
+    </p>
+    
+    <button onclick="copiarSenha()">Copiar Senha</button>
+  </div>
+
+  <script>
+    const wifiSSID = "EAF4_Fibra Joinville";
+    const wifiPassword = "Iguicell88"; 
+    
+    const qrCodeData = `WIFI:T:WPA;S:${wifiSSID};P:${wifiPassword};;`;
+
+    new QRCode(document.getElementById("qrcode-container"), {
+        text: qrCodeData,
+        width: 220,
+        height: 220
+    });
+
+    function copiarSenha() {
+      navigator.clipboard.writeText(wifiPassword);
+      alert("Senha copiada!");
+    }
+  </script>
+</body>
+</html>

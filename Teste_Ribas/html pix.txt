@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Pagamento via Pix</title>
+  <link rel="stylesheet" href="pagamento.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Pagamento via Pix</h1>
+    
+    <div class="qrcode">
+      <img src="" alt="QR Code Pix" width="220">
+    </div>
+
+    <p><strong>Chave Pix:</strong> <span id="pixKey">61.675.630/0001-50</span></p>
+    
+    <button onclick="copiarPix()">Copiar Chave Pix</button>
+  </div>
+
+  <script>
+    const chavePix = "61.675.630/0001-50"; 
+
+    function copiarPix() {
+      navigator.clipboard.writeText(chavePix);
+      alert("Chave Pix copiada!");
+    }
+  </script>
+</body>
+</html>
