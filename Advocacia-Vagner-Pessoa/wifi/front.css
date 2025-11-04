@@ -81,14 +81,14 @@ body {
 }
 
 .container button:hover {
-  background-color: #262628;
+  background-color: #6f6f72;
 }
 
 button {
   padding: 12px 25px;
   font-size: 16px;
   cursor: pointer;
-  background: #262628; /* azul médio dos botões */ 
+  background: #6f6f72; /* azul médio dos botões */ 
   border: none;
   border-radius: 8px;
   color: #fff;
