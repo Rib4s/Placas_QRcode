@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #c9a1f7
-, #c9a1f7);
+  background: linear-gradient(to bottom right, #262628
+, #3c3935);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,12 +12,12 @@ body {
 }
 
 .container {
-  background-color: #642ab1; 
+  background-color: #bbb198; 
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(10, 0, 0, 0.2);
   text-align: center;
-  color: white;
+  color: black;
   width: 100%; /* Ocupa 100% da largura disponível */
   max-width: 350px; /* Limita a largura máxima para não ficar muito grande em telas maiores */
   box-sizing: border-box; /* Garante que padding não adicione à largura total */
@@ -70,7 +70,7 @@ body {
 }
 
 .container button {
-  background-color: #e20e5c; 
+  background-color: #262628; 
   color: white;
   padding: 10px 20px;
   border: none;
@@ -81,14 +81,14 @@ body {
 }
 
 .container button:hover {
-  background-color: #542335;
+  background-color: #262628;
 }
 
 button {
   padding: 12px 25px;
   font-size: 16px;
   cursor: pointer;
-  background: #542335; /* azul médio dos botões */ 
+  background: #262628; /* azul médio dos botões */ 
   border: none;
   border-radius: 8px;
   color: #fff;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-  background: #542335; /* tom um pouco mais claro no hover */
+  background: #262628; /* tom um pouco mais claro no hover */
 }
 
 p {
