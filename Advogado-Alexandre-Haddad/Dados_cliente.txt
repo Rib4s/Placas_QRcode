@@ -1,0 +1,18 @@
+Cliente:
+Advogado Alexandre Haddad
+
+Dados placa inteligente
+Cor do Fundo 
+#010101 e #3c3935
+Cor ícones
+#d4af66
+Cor letras
+#d4af66 e #fdfdfd
+Cor faixa
+#dcab35 e #fdfdfd
+
+Wi-Fi
+nome da rede: masterplanadm 
+Senha: masterplan2022
+
+Chave PIX: 02838695932
