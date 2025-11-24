@@ -1,0 +1,18 @@
+Cliente:
+Clevenice Palini Advocacia
+
+Dados placa inteligente
+Cor do Fundo 
+#003d4a e #032f3b
+Cor ícones
+#c6b12f
+Cor letras
+#c6b12f e #fdfdfd
+Cor faixa
+#c6b12f e #fdfdfd
+
+Wi-Fi
+nome da rede: AGUIA
+Senha: 1101****
+
+Chave PIX:41992445400
