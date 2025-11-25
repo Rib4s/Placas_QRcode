@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.background-container {
+    width: 100vw;
+    height: 100vh;
+    background-size: auto 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Imagem padrão para desktop */
+.default-bg {
+    background-image: url('Landing page - Desktop.png');
+}
+
+/* Para telas quadradas */
+.square-bg {
+    background-image: url('vagner_1-1.jpg');
+}
+
+/* Para mobile vertical */
+.mobile-bg {
+    background-image: url('Landing page - Mobile.png');
+}
+
+/* Para tablets */
+.tablet-bg {
+    background-image: url('vagner_4-3.jpg');
+}
